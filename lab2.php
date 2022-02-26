@@ -26,6 +26,7 @@ $this_month = 1089.98;
 echo ($last_month - $this_month);
 
 //assignment_3
+
 $num_languages = 4;
 $months = 11;
 $days = $months*16;
@@ -33,9 +34,11 @@ $days_per_language = $days / $num_languages;
 echo "\n" . $days_per_language . "\n";
 
 //assignment_4
+
 echo 8**2 . "\n";
 
 //assignment_5
+
 $my_num = 99;
 $answer = $my_num;
 $answer += 2;
@@ -141,6 +144,7 @@ echo "\n" . $my_num = printStringReturnNumber();
 
 
 //assignment_16
+
 function increaseEnthusiasm(string $str) {
     return $str . "!";
 }
